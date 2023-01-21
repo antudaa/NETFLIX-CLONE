@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <div className='flex items-center justify-between p-4 w-full absolute'>
+        <div className='flex items-center justify-between p-4 w-full absolute z-[100]'>
             <h1 className='text-red-600 text-2xl lg:text-4xl font-bold cursor-pointer'>NETFLIX</h1>
             <div>
                 <button className='lg:pr-4 pr-2 cursor-pointer text-white'>Sign In</button>

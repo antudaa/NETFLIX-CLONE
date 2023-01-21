@@ -1,9 +1,19 @@
 import React from 'react';
+import Request from '../../Components/Requests/Requests';
+import Banner from './Banner/Banner';
+import Row from './Row/Row';
 
 const HomePage = () => {
+
+
     return (
         <div>
-            <h1 className='text-4xl my-8 text-emerald-300'>HomePage</h1>
+            <Banner />
+            <Row title='Popular' url={Request.Popular} />
+            <Row title='Top Rated' url={Request.TopRated} />
+            <Row title='Trending' url={Request.Trending} />
+            <Row title='UpComing' url={Request.UpComing} />
+            <Row title='Horror' url={Request.Horror} />
         </div>
     );
 };
