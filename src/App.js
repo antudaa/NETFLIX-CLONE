@@ -1,15 +1,15 @@
+import { RouterProvider } from 'react-router-dom';
 import './App.css';
+import route from './Pages/Routes/Route';
 
 function App() {
+
   return (
-    <div className="App">
-      <h2>NETFLIX CLONE</h2>
+    <div>
+      <RouterProvider router={route} />
+
     </div>
   );
 }
 
 export default App;
-
-
-
-// C:\PH-WC\PROJECT BACKPACK\NETFLIX Clone
