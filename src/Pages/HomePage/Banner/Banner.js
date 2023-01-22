@@ -24,7 +24,7 @@ const Banner = () => {
                     <h2 className='text-3xl md:text-5xl font-bold'>{movie?.title}</h2>
                     <div className='my-4'>
                         <button className='border bg-gray-300 text-black border-gray-300 py-2 px-5'>Play</button>
-                        <button className='border text-white border-gray-300 ml-4 py-2 px-5'>Watch Later</button>
+                        <button className='border text-white border-gray-300 ml-4 py-2 px-5 hover:bg-red-600 hover:border-none'>Watch Later</button>
                     </div>
                     <p className='text-sm text-gray-400'>Released: {movie?.release_date}</p>
                     <p className='w-full md:max-w-[70%] lg:max-w-[50%] xl:max-w-[35%] text-gray-200'>{
